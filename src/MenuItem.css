@@ -1,0 +1,13 @@
+.MenuItem{
+
+}
+
+.MenuItem .addbtn{
+    outline: none;
+    border: 0px;
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 3px;
+    background: none;
+}

@@ -6,7 +6,7 @@ class Basket extends Component {
         const itemsMap = this.props.order.map(p=> <li><span className="alignleft">{p.product} {p.size}</span><span className="alignleft">{p.price}</span></li>);
         const accum = (acc, cur) => acc + cur.price;
         const totalCost = (this.props.order.reduce(accum, 0.00)).toFixed(2);
-        const orderItems = !this.props.order[0] ? <p>Nothing here yet</p> : <div><div className="orderlist">{itemsMap}</div><span className="total">TOTAL: {totalCost}</span></div>;
+        const orderItems = !this.props.order[0] ? <p>Nothing here yet</p> : <div><ul className="orderlist">{itemsMap}</ul><span className="total">TOTAL: {totalCost}</span></div>;
         return (
             <div className="Basket" >
                 <h2>Your Order</h2>

@@ -3,7 +3,7 @@ import './Basket.css';
 
 class Basket extends Component {
     render() {
-        const itemsMap = this.props.order.map(p=> <li>{p.product} -{p.size} -{p.price}</li>);
+        const itemsMap = this.props.order.map(p=> <li><span className="alignleft">{p.product} {p.size}</span><span className="alignleft">{p.price}</span></li>);
         const accum = (acc, cur) => acc + cur.price;
         const totalCost = (this.props.order.reduce(accum, 0.00)).toFixed(2);
         const orderItems = !this.props.order[0] ? <p>Nothing here yet</p> : <div><div className="orderlist">{itemsMap}</div><span className="total">TOTAL: {totalCost}</span></div>;

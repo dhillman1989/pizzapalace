@@ -1,6 +1,9 @@
 .Basket{
+    width: 200px;
+    overflow: none;
     align-self: flex-start;
     position: sticky;
+    top: 20px;
 }
 
 .Basket-container{
@@ -17,6 +20,16 @@
     color: #555;
     font-style: italic;
     background-color: #fff;
+}
+
+.Basket-container li{
+    display:flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.Basket-container li:nth-of-type(even){
+    background-color: #ddd;
 }
 
 
@@ -38,7 +51,6 @@
     font-size: 22px;
     font-weight: 700;
 }
-
 
 
 

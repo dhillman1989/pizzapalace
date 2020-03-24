@@ -1,21 +1,29 @@
 [
     {
-        "id": "VG",
         "product": "Veggie Pizza",
         "desc": "Vegetarian Cheese, Mushrooms, Tomato, Onions, Sweetcorn and Peppers",
         "prices": [{"size": "9", "price": 4.99, "id": "VG-9"}, {"size": "12", "price": 7.99, "id": "VG-12"}, {"size": "15", "price": 9.99, "id": "VG-15"}]
     },
     {
-        "id": "FC",
         "product": "Four Cheese",
         "desc": "Mozarella, Parmesan, Stilton, Cheddar",
         "prices": [{"size": "9", "price": 4.99, "id": "FC-9"}, {"size": "12", "price": 7.99, "id": "FC-12"}]
     },
     {
-        "id": "PP",
         "product": "Pepperoni",
         "desc": "Pepperoni, BBQ sauce and Peppers",
         "prices": [{"size": "9", "price": 4.99, "id": "PP-9"}, {"size": "12", "price": 7.99, "id": "PP-12"}]
+    },
+    {
+        "product": "Chicken Burger",
+        "desc": "Pepperoni, BBQ sauce and Peppers",
+        "prices": [{"size": "Standard", "price": 3.99, "id": "CB-S"}, {"size": "Meal", "price": 4.99, "id": "CB-M"}]
+    },
+    {
+
+        "product": "Lamb Donner Kebab",
+        "desc": "Lamb Donner Meat with salad & chips",
+        "prices": [{"size": "Standard", "price": 4.50, "id": "LD-S"}, {"size": "Large", "price": 6.00, "id": "LD-L"}]
     }
 ]
     

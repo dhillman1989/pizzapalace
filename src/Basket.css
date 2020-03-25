@@ -1,5 +1,5 @@
 .Basket{
-    width: 200px;
+    width: 255px;
     overflow: none;
     align-self: flex-start;
     background: #fff;
@@ -7,7 +7,7 @@
 
 .Basket-container{
     border: 1px solid #000;
-    width: 250px;
+    width:100%;
     text-align:center;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -25,6 +25,9 @@
     display:flex;
     justify-content: space-between;
     padding: 10px;
+    font-size: 12px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
 }
 
 .Basket-container li:nth-of-type(even){
@@ -49,7 +52,6 @@
 }
 
 .Basket-container .total{
-    margin-bottom: 25px;
     display: block;
     align-self: center;
     font-size: 22px;
